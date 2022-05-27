@@ -1,0 +1,80 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .header{
+     margin-top: 10px;
+     background-color: grey;
+     width: 200px;
+     text-align: center;
+ }
+ 
+ 
+ .txtTodo{
+     margin-top: 20px;
+     font-weight: 600;
+     font-size: 18px;
+     width: 200px;
+     text-align: center;
+     padding: 10px;
+ }
+ 
+ .delete{
+     background-color: blueviolet;
+     color: white;
+     margin: auto;
+     width: 80px;
+     border: none;
+     cursor: pointer;
+     height: 30px;
+ }
+ 
+ .modal{
+     text-align: center;
+     display: block;
+     width: 30%;
+     position: fixed;
+     left:50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     background-color: white;
+     box-shadow: 1.5px 1.5px 1.5px 1.5px black;
+     /* height: 100px; */
+     padding: 15px;
+     margin: auto;
+     display: none;
+ }
+ 
+ .title{
+     color: black;
+     font-weight: 600;
+     font-size: 18px;
+     padding: 5px;
+ }
+ 
+ .comfirm{
+     background-color: blueviolet;
+     color: white;
+     margin: auto;
+     width: 80px;
+     border: none;
+     cursor: pointer;
+     height: 30px;
+ }
+ .cancel{
+     margin: auto;
+     width: 80px;
+     /* border: none; */
+     cursor: pointer;
+     height: 30px;
+ }
+ .show{
+     display: block;
+     background-color: grey;
+ }
+ 
+ .show .modal{
+     display: block;
+ }
